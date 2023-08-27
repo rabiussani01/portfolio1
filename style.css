@@ -2,17 +2,28 @@ body {
   background-color: antiquewhite;
 }
 .hgt {
-  height: 600px;
+  min-height: 100vh;
+}
+.hgt1 {
+  
+  min-height: 100vh;
 }
 .hgt2 {
+  min-height: 100vh;
   padding-top: 10%;
 }
 .hgt3 {
-  padding-top: 5%;
-  height: 490px;
+  padding-bottom: -3%;
+  min-height: 100vh;
 }
 .hgt4 {
-  padding-top: 10%;
+  
+  min-height: 100vh;
+}
+/* about */
+.hgt11 {
+  padding-top: -3%;
+  min-height: 100vh;
 }
 .flt {
   float: left;
@@ -42,24 +53,29 @@ body {
   padding-top: 20%;
   padding-left: 10%;
 }
+/* about */
+.abt11 {
+  text-align: center;
+  padding-top: 0%;
+}
 .abt1 {
   text-align: center;
-  padding-top: 5%;
-  padding-bottom: -3%;
+  padding-top: -20%;
+  padding-bottom: 5%;
 }
 .abt2 {
   text-align: center;
   padding-top: 2%;
-  padding-bottom: -3%;
+  padding-bottom: 5%;
 }
 .abt3 {
   text-align: center;
-  padding-top: 0%;
-  padding-bottom: 2%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 .abt4 {
   text-align: center;
-  padding-top: 5%;
+  padding-top: 0%;
   padding-bottom: 2%;
 }
 /*= Skills */
